@@ -19,12 +19,28 @@
             </select>
         </div>
         <div id="post-list">
-            <!-- Example post list with placeholder data -->
-            <div class="post" data-status="approved">
+            <!-- Example post list with longer comments for detailed incidents -->
+            <div class="post" data-status="approved" data-verified="true">
                 <p><strong>Incident:</strong> Reported by Anonymous</p>
-                <p>Details: Someone suspicious following...</p>
+                <p><strong>Details:</strong> I faced a harassment attack near GSU last evening. A man started following me from the campus library and made several inappropriate comments. I tried to ignore him, but he continued following me for a few blocks until I entered a well-lit area with more people around. It was really scary, and I felt unsafe. Thankfully, I was able to get help from a nearby security guard. Please be cautious when walking alone near that area, especially during late hours.</p>
+                <p class="verified"><strong>Verified by Police</strong></p>
+                <p class="police-comment"><strong>Police Comment:</strong> We have increased patrols in the area to ensure student safety. We encourage students to report any suspicious activity immediately to campus police.</p>
+            </div>
+            
+            <div class="post" data-status="non-cited" data-verified="false">
+                <p><strong>Incident:</strong> Reported by Anonymous</p>
+                <p><strong>Details:</strong> Last week, I noticed some suspicious activity near the campus parking lot. There was a group of people loitering around late at night, and they seemed to be watching students as they walked to their cars. It made me uncomfortable, and I quickly left the area. I hope campus security can keep an eye on that spot.</p>
+            </div>
+            
+            <div class="post" data-status="approved" data-verified="true">
+                <p><strong>Incident:</strong> Reported by Anonymous</p>
+                <p><strong>Details:</strong> I was approached by an unknown person on the main road near GSU. He tried to ask personal questions and got too close, making me feel uncomfortable. I kept walking, but he continued to follow me for a short distance. I was able to enter a nearby building and wait until he left. This experience made me realize how vulnerable we can be in these situations. Be alert and stay safe, everyone!</p>
+                <p class="verified"><strong>Verified by Police</strong></p>
+                <p class="police-comment"><strong>Police Comment:</strong> We are investigating this incident and have added additional patrols in the area. If you experience similar issues, please report them as soon as possible.</p>
             </div>
         </div>
     </header>
+    <script src="scripts.js"></script>
 </body>
 </html>
+
